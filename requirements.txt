@@ -11,4 +11,5 @@ googlesearch
 fpdf
 io
 fastapi.staticfiles
-fitz (PyMuPDF)
+PyMuPDF
+
