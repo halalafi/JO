@@ -6,3 +6,12 @@ googlesearch-python
 fpdf
 PyMuPDF
 uvicorn
+fastapi
+uvicorn
+pydantic
+python-multipart
+arabic-reshaper
+bidi
+googlesearch-python
+fpdf
+PyMuPDF
