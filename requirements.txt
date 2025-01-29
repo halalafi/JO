@@ -1,0 +1,14 @@
+fastapi
+logging
+fastapi.responses
+pydantic
+fastapi.middleware.cors
+os
+json
+arabic_reshaper
+bidi.algorithm
+googlesearch
+fpdf
+io
+fastapi.staticfiles
+fitz (PyMuPDF)
