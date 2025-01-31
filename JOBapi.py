@@ -262,7 +262,7 @@ class CompanyQuery(BaseModel):
 
 @app.get("/jobs")
 def get_jobs(query: str):
-    jobs_file_path = r'C:\Users\lenovo\OneDrive\Desktop\-\jobs.txt'
+    jobs_file_path = r'jobs.txt'
     fields = {"title": "Job Title:", "description": "Description:"}
     jobs = list(load_data(jobs_file_path, fields))
     return search_items(query, jobs, ["title", "description"])
@@ -280,7 +280,7 @@ def search_companies_google(city: str, specialization: str):
 
 @app.post("/search_companies")
 def search_companies_api(company_query: CompanyQuery):
-    companies_file_path = r'C:\Users\lenovo\OneDrive\Desktop\-\companies.txt'
+    companies_file_path = r'companies.txt'
     fields = {"company": "Company Name:", "location": "Location:", "specialization": "Specialization:"}
     companies = list(load_data(companies_file_path, fields))
     return search_items(company_query.specialization, companies, ["specialization"])
