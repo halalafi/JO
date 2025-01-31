@@ -1,0 +1,11 @@
+Company Name: شركة المستقبل
+Location: عمان
+Specialization: هندسة البرمجيات
+
+Company Name: شركة التقنية
+Location: اربد
+Specialization: الذكاء الاصطناعي
+
+Company Name: شركة التقنية الحديثة
+Location: جدة
+Specialization: تطوير البرمجيات
