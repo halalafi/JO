@@ -14,3 +14,10 @@ arabic-reshaper
 googlesearch-python
 fpdf
 PyMuPDF
+pip 
+fastapi 
+uvicorn 
+pymupdf 
+arabic-reshaper 
+python-bidi 
+fpdf aiofiles
