@@ -262,7 +262,7 @@ class CompanyQuery(BaseModel):
 
 @app.get("/jobs")
 def get_jobs(query: str):
-    jobs_file_path = r'jobs.txt'
+    jobs_file_path = r'https://github.com/halalafi/JO/blob/main/jobs.txt'
     fields = {"title": "Job Title:", "description": "Description:"}
     jobs = list(load_data(jobs_file_path, fields))
     return search_items(query, jobs, ["title", "description"])
